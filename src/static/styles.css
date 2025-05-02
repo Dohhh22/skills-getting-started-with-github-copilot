@@ -154,3 +154,39 @@ footer {
   padding: 20px;
   color: #666;
 }
+/* Participant card styling */
+.participant-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.participant-card h4 {
+  margin-bottom: 10px;
+  color: #1a237e;
+  font-size: 18px;
+}
+
+.participant-card p {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.participant-card .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+}
+
+.participant-card .role {
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+}
